@@ -1,7 +1,8 @@
 from langchain_community.document_loaders import TextLoader
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.vectorstores import Pinecone
+from langchain_pinecone import PineconeVectorStore
+from pinecone import Pinecone, PodSpec
 import os
 
 os.environ["OPENAI_API_KEY"] = "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"

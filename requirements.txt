@@ -1,2 +1,11 @@
-langchain~=0.1.14
-beautifulsoup4~=4.12.3
+jupyterlab
+openai
+tiktoken
+langchain
+openai
+chromadb
+langchainhub
+bs4
+pinecone-client
+langchain-pinecone
+langchain-community
